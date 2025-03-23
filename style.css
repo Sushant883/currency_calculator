@@ -76,7 +76,7 @@
 
 /* ye menu bar ko show krega  */
 #menu_bar.active {
-    background-color: blueviolet;
+    background-color: rgb(116, 0, 224);
     top: 0;
     left: 0;
     height: 100vh;
@@ -93,10 +93,32 @@
 
 .activemenu {
     display: flex;
-    border: 2px solid red;
+    border-bottom: 1px solid rgb(0, 0, 0);
     height: 4rem;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
     transition: left ease-in-out 0.3s, opacity 0.5s ease-in-out;
 }
+
+
+#menu_bar.active .option {
+    border: 2px solid red;
+    margin-top: 30px;
+    padding: 10px 20px;
+    height: 3rem;
+
+}
+
+#menu_bar.active .option a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    border: 2px solid rgb(149, 255, 1);
+    margin: 0 10px;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
