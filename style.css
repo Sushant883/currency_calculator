@@ -30,7 +30,7 @@ padding: 0 2rem;
     border-radius: 25px;
     outline: none;
 }
-#menu_btn {
+#menu_toggle {
     background: none;
     outline: none;
     border: 1px solid red;
@@ -53,7 +53,7 @@ padding: 0 2rem;
 
 
 /* abhi menu bar hidde hai */
-.menu_bar .option{
+#menu_bar{
     color: rgb(244, 0, 0);
     border: 2px solid blue;
     position: absolute;
@@ -62,6 +62,6 @@ padding: 0 2rem;
 }
 
 /* ye menu bar ko show krega  */
-.menu_bar.active{
+#menu_bar.active{
     left:0
 }
