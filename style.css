@@ -16,12 +16,52 @@ padding: 0 2rem;
 
 .nav_register{
     border: 2px solid blue;
-    padding: 1rem 1rem;
+    width: 18%;
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.nav_register button,i{
+.nav_register button{
+    cursor: pointer;
     font-size: 20px;
     padding: 5px 10px;
-    border-radius: 10px;
+    border-radius: 25px;
     outline: none;
+}
+#menu_btn {
+    background: none;
+    outline: none;
+    border: 1px solid red;
+    height: 3rem;
+    width: 3rem;
+    color: purple;
+    background-color: rgba(137, 43, 226, 0.592);
+    font-size: 2rem;
+}
+/* #menu_btn i{
+    /* font-size: 25px;
+    cursor: pointer;
+    border: 1px solid red;
+    padding: 0.5rem 0.6rem;
+    border-radius: 50%;
+    background: none; */
+    /* outline: none;
+    background-color: teal; */
+/* } */
+
+
+/* abhi menu bar hidde hai */
+.menu_bar .option{
+    color: rgb(244, 0, 0);
+    border: 2px solid blue;
+    position: absolute;
+    left: -100%;
+    transition: left ease-in-out 0.7s;
+}
+
+/* ye menu bar ko show krega  */
+.menu_bar.active{
+    left:0
 }
