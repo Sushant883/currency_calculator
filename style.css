@@ -122,3 +122,32 @@
     border-radius: 20px;
 }
 
+#menu_bar.active .dropdown{
+    border: 2px solid yellow;
+    position: relative;
+    margin: 30px 0px;
+    
+}
+
+#menu_bar.active #dropbtn{
+    width: 100%;
+   margin-top: 10px;
+    text-align: start;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#menu_bar.active .dropdown-content{
+    border: 2px solid red;
+    padding: 20px 10px;
+}
+
+#menu_bar.active .dropdown-content a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    font-size: 25px;
+    back
+}
+
